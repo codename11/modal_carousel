@@ -1,0 +1,42 @@
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  
+.close{
+	position: absolute;
+	right: -14px;
+	top: -14px;
+	color: white;
+	font-size: 20px;
+	margin: 0;
+	opacity: 1 !important;
+	border: none;	
+}
+
+.glyphicon-remove-circle:hover{
+	color:white;
+}
+
+.slikax{
+	width: 10%;
+	height: 10%;
+}
+
+.clip{
+	
+	position: absolute;
+  /*clip: rect(top,right,bottom,left)*/
+    clip: rect(0px,80px,180px,0px); 
+	left: 20%;
+	top: 20%;
+   -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.clip:hover {
+  clip: rect(0px, 627px, 180px, 0px);
+}
+
